@@ -33,6 +33,24 @@ Gloo is a robotic pet with emotions that you can play with. It uses a TFT displa
 
 The Teensy 3.1 was programmed on the Arduino IDE environment. The TFT Display operates using SPI. The Teensy 3.1 and the Raspberry Pi communicate with each other via UART. The Teensy 3.1 can also communicate with a computer via USB by using UART. The RGB LED is controlled using PWM. On the Raspberry Pi, the image processing is done using OpenCV on Python 2.7.
 
+###Materials (with links)
+- Teensy 3.1 (retired, replaced by Teensy 3.2) http://pjrc.com/store/teensy32.html
+- TFT display http://pjrc.com/store/display_ili9341.html
+- Raspberry Pi B+ (or any other Raspberry Pi) https://www.sparkfun.com/products/13297
+- Webcam - Logitech C270 [Amazon](http://www.amazon.com/Logitech-Webcam-Widescreen-Calling-Recording/dp/B004FHO5Y6/ref=sr_1_2?s=pc&ie=UTF8&qid=1450209522&sr=1-2&keywords=logitech+webcam)
+- Pan/Tilt Set with 2 micro servos (SG90) https://acrobotic.com/acs-00008
+- RGB LED (common anode) https://www.sparkfun.com/products/10821
+- 400-contact breadboard https://www.sparkfun.com/products/12002
+- 170-contact breadboard https://www.sparkfun.com/products/12043
+- Male-to-male jumper wires https://www.sparkfun.com/products/11026
+- Female-to-female jumper wires https://www.sparkfun.com/products/12796
+- External battery power bank (with 2 USB ports) [Amazon](http://www.amazon.com/KMASHI-10000mAh-External-Portable-Powerful/dp/B00JM59JPG/ref=sr_1_1?ie=UTF8&qid=1450210301&sr=8-1&keywords=powerbank)
+- 2 x Micro-B usb cables [Amazon](http://www.amazon.com/Aukey-Hi-speed-Charging-Smartphones-CB-D10/dp/B00SWAS0DY/ref=sr_1_1?ie=UTF8&qid=1450210350&sr=8-1&keywords=usb+cable+aukey)
+
+###Other Materials
+- Micro SD card adaptor http://pjrc.com/store/sd_adaptor.html 
+- Saleae Logic Analyzer https://www.sparkfun.com/products/13195
+
 ##Source Files
 
 ###Source Code: (Code developed and compiled on Arduino IDE)
