@@ -38,7 +38,6 @@ The Teensy 3.1 was programmed on the Arduino IDE environment. The TFT Display op
 ###Source Code: (Code developed and compiled on Arduino IDE)
 ####Arduino/gloo_6/gloo_6.ino
 - Main code with all the functions and state machines.
-
 - SM1_Tick(): Updates servo
 - SM2_Tick(): Updates TFT
 - SM4_Tick(): Reads camera input
@@ -51,9 +50,13 @@ The Teensy 3.1 was programmed on the Arduino IDE environment. The TFT Display op
 ###Headers: (Add the libraries to your Arduino IDE from the /lib folder)
 ####SPI.h
 - Used for basic SPI communication implementation.
+
 ####Adafruit_GFX.h
 - Assisting library that includes functions for drawing basic shapes, such as circles, squares, lines and letters.
+
 ####Adafruit_ILI9341.h
 - Library that includes all the protocols and commands to control the TFT display.
+
 ####Servo.h
 - Used for controlling servo motors with PWM.
+
