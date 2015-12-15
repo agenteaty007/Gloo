@@ -13,23 +13,23 @@ Gloo is a robotic pet with emotions that you can play with. It uses a TFT displa
 
 ##User Guide
 ###Controls
-*To wake up Gloo, show him one of its toys: the green marker, the red marker, or a face.
-*When Gloo sees you, he will smile at you and express what toy or feature it recognizes:
-*Red or Green depending on the marker, or Blue if it sees your face.
-*To play pee-ka-boo, hide his toys and all faces. Once it goes sad, show him a toy or face, and he will get excited.
-*If nothing happens for longer than 8 seconds, it will go to normal “stand-by” mode.
-*If nobody plays with him for over 15 seconds, it will go to sleep.
+-To wake up Gloo, show him one of its toys: the green marker, the red marker, or a face.
+-When Gloo sees you, he will smile at you and express what toy or feature it recognizes:
+-Red or Green depending on the marker, or Blue if it sees your face.
+-To play pee-ka-boo, hide his toys and all faces. Once it goes sad, show him a toy or face, and he will get excited.
+-If nothing happens for longer than 8 seconds, it will go to normal “stand-by” mode.
+-If nobody plays with him for over 15 seconds, it will go to sleep.
 ###Special Considerations
-*The Raspberry Pi takes some time to boot up. From a cold start, Gloo takes 1 minute to come to live.
+-The Raspberry Pi takes some time to boot up. From a cold start, Gloo takes 1 minute to come to live.
 
 ##Technologies and Components
 ###Peripherals and Devices:
-*1 x Teensy 3.1
-*2 x Hobby Servo Motors - SG90
-*1 x RGB LED
-*1 x TFT Display
-*1 x Raspberry Pi B+
-*1 x Webcam 
+-1 x Teensy 3.1
+-2 x Hobby Servo Motors - SG90
+-1 x RGB LED
+-1 x TFT Display
+-1 x Raspberry Pi B+
+-1 x Webcam 
 
 The Teensy 3.1 was programmed on the Arduino IDE environment. The TFT Display operates using SPI. The Teensy 3.1 and the Raspberry Pi communicate with each other via UART. The Teensy 3.1 can also communicate with a computer via USB by using UART. The RGB LED is controlled using PWM. On the Raspberry Pi, the image processing is done using OpenCV on Python 2.7.
 
