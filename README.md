@@ -6,7 +6,7 @@ Author: Alberto Tam Yong
 https://youtu.be/xaD0OcOek-Y
 
 ##Website
-albertotech.com/gloo
+https://albertotech.com/gloo
 
 ##High Level Description
 Gloo is a robotic pet with emotions that you can play with. It uses a TFT display to show its expressions and a camera to detect its surroundings. An RGB LED allows the robot to show even more details with you. Gloo is able to recognize colors and faces, and it can play pee-ka-boo.
