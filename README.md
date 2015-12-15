@@ -19,6 +19,7 @@ Gloo is a robotic pet with emotions that you can play with. It uses a TFT displa
 - To play pee-ka-boo, hide his toys and all faces. Once it goes sad, show him a toy or face, and he will get excited.
 - If nothing happens for longer than 8 seconds, it will go to normal “stand-by” mode.
 - If nobody plays with him for over 15 seconds, it will go to sleep.
+
 ###Special Considerations
 - The Raspberry Pi takes some time to boot up. From a cold start, Gloo takes 1 minute to come to live.
 
